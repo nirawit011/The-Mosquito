@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="New Folder"
-run/main_scene="res://Scene/Intro.tscn"
+run/main_scene="res://Scene/Part_1/Intro.tscn"
 config/icon="res://icon.png"
 
 [gui]

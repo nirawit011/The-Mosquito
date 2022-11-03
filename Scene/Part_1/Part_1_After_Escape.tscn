@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Font/Itim Regular.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Character_Dialogue/Karn.png" type="Texture" id=2]
 
 [sub_resource type="DynamicFont" id=3]
 font_data = ExtResource( 1 )
@@ -177,6 +178,18 @@ tracks/8/keys = {
 "update": 1,
 "values": [ true, false, true ]
 }
+tracks/9/type = "value"
+tracks/9/path = NodePath("Sprites/Karn:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 36, 37, 39, 57, 58, 60 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
 
 [sub_resource type="Animation" id=4]
 length = 0.001
@@ -196,6 +209,12 @@ tracks/0/keys = {
 [node name="Part_1_After_Escape" type="Node"]
 
 [node name="Sprites" type="Node2D" parent="."]
+
+[node name="Karn" type="Sprite" parent="Sprites"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 913, 383 )
+scale = Vector2( 0.0922692, 0.0922692 )
+texture = ExtResource( 2 )
 
 [node name="Control" type="Control" parent="."]
 margin_right = 40.0
@@ -239,8 +258,10 @@ align = 1
 valign = 1
 
 [node name="Fade" type="ColorRect" parent="Control"]
-margin_right = 1024.0
-margin_bottom = 600.0
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 1025.0
+margin_bottom = 601.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Animation" type="AnimationPlayer" parent="."]

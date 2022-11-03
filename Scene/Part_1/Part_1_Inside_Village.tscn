@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="Part_1_Inside_Village" type="Node"]
+
+[node name="Sprites" type="Node2D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Box" type="ColorRect" parent="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Text" type="Label" parent="Control/Box"]
+margin_right = 40.0
+margin_bottom = 14.0
