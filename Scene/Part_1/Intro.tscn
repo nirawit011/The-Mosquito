@@ -250,7 +250,7 @@ tracks/18/path = NodePath("Sound/BG")
 tracks/18/interp = 1
 tracks/18/loop_wrap = true
 tracks/18/imported = false
-tracks/18/enabled = true
+tracks/18/enabled = false
 tracks/18/keys = {
 "clips": [ {
 "end_offset": 0.0,

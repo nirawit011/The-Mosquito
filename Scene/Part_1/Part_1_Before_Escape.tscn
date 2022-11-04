@@ -373,7 +373,7 @@ tracks/1/keys = {
 [node name="Sprites" type="Node2D" parent="."]
 
 [node name="BG_Forest" type="Sprite" parent="Sprites"]
-modulate = Color( 0.975934, 0.975934, 0.975934, 0 )
+modulate = Color( 0.545098, 0.545098, 0.545098, 1 )
 position = Vector2( 512, 246.75 )
 scale = Vector2( 0.442666, 0.448636 )
 texture = ExtResource( 1 )
@@ -395,7 +395,6 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Box" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
 margin_top = 488.0
 margin_right = 1024.0
 margin_bottom = 600.0
@@ -408,11 +407,11 @@ margin_top = 8.0
 margin_right = 1016.0
 margin_bottom = 104.0
 custom_fonts/font = SubResource( 1 )
-text = "ไม่เถียง งั้นฉันให้แผนที่กับเธอละกันนะ จะได้ช่วยๆกัน"
-percent_visible = 0.564913
+text = "ห้ะๆว่าไง กาน
+"
+percent_visible = 0.505669
 
 [node name="Box_Char" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
 margin_left = 832.0
 margin_top = 467.0
 margin_right = 1000.0
@@ -425,8 +424,7 @@ margin_top = 7.0
 margin_right = 163.0
 margin_bottom = 58.0
 custom_fonts/font = SubResource( 3 )
-text = "กาน
-
+text = "เจน
 
 "
 align = 1
@@ -439,16 +437,17 @@ margin_bottom = 600.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Text_Noti" type="Label" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
+visible = false
 margin_left = 432.0
 margin_top = 255.0
 margin_right = 612.0
 margin_bottom = 380.0
 custom_fonts/font = SubResource( 4 )
-text = "คุณได้รับ
-แผนที่"
+text = "Part1
+รวมตัว"
 align = 1
 valign = 1
+percent_visible = 0.0
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 anims/Part_1_Before_Escape = SubResource( 2 )
