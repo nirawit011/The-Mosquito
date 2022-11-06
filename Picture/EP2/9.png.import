@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—hand cartoon illustration for kids_8451343.png-71c24e04501cc0c88be893a76808dc11.stex"
+path="res://.import/9.png-bcd35f9789c622c6abd8d1ab3d7ba096.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/—Pngtree—hand cartoon illustration for kids_8451343.png"
-dest_files=[ "res://.import/—Pngtree—hand cartoon illustration for kids_8451343.png-71c24e04501cc0c88be893a76808dc11.stex" ]
+source_file="res://Picture/EP2/9.png"
+dest_files=[ "res://.import/9.png-bcd35f9789c622c6abd8d1ab3d7ba096.stex" ]
 
 [params]
 

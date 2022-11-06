@@ -1,10 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Font/Itim Regular.otf" type="DynamicFontData" id=1]
 [ext_resource path="res://Character_Dialogue/Karn.png" type="Texture" id=2]
 [ext_resource path="res://Sound/Digital Text.wav" type="AudioStream" id=3]
-[ext_resource path="res://Picture/9.png" type="Texture" id=4]
-[ext_resource path="res://Picture/10.png" type="Texture" id=5]
+[ext_resource path="res://Picture/EP2/9.png" type="Texture" id=4]
+[ext_resource path="res://Picture/EP2/10.png" type="Texture" id=5]
+[ext_resource path="res://Picture/Others/Map Forest.jpeg" type="Texture" id=6]
+[ext_resource path="res://Picture/Others/—Pngtree—shake hands_2494985.png" type="Texture" id=7]
+[ext_resource path="res://Picture/Others/—Pngtree—hand gesture illustration of playing_5783078.png" type="Texture" id=8]
 
 [sub_resource type="DynamicFont" id=3]
 size = 20
@@ -25,13 +28,14 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 3, 5, 7, 9, 11, 15, 17, 19, 21, 22, 24, 25, 36, 37, 39, 41, 43, 47, 49, 51, 53, 55, 57, 58, 60, 63, 65, 66 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 3, 5, 7, 9, 11, 15, 17, 19, 21, 22, 24, 25, 33, 34, 36, 37, 39, 41, 43, 47, 49, 51, 53, 55, 57, 58, 60, 63, 65, 66 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ "แฮ่กๆๆๆ ", "แฮ่กๆๆๆ ", "หนีเร็วๆ พวกมันมากันเยอะ", "หนีเร็วๆ พวกมันมากันเยอะ", "พวกเขากระเสือกกระสนที่จะเอาตัวรอด แต่แล้วก็มีบางอย่างช่วยพวกเขาไว้", "พวกเขากระเสือกกระสนที่จะเอาตัวรอด แต่แล้วก็มีบางอย่างช่วยพวกเขาไว้", "พวกเธอทั้งสองคน มานี่เร็ว รีบเข้ามา", "พวกเธอทั้งสองคน มานี่เร็ว รีบเข้ามา", "เดี๋ยวนี้ !!!!!!!", "เดี๋ยวนี้ !!!!!!!
 
 ", "เจน เร็ววว", "เจน เร็ววว
 
+", "พวกเขารอดได้อย่างหวุดหวิด", "พวกเขารอดได้อย่างหวุดหวิด
 ", "เห้อออ แทบตาย", "เห้อออ แทบตาย
 ", "นี่ พวกเธอ เป็นใครน่ะ ทำไมถึงมาที่นี่ได้", "นี่ พวกเธอ เป็นใครน่ะ ทำไมถึงมาที่นี่ได้
 
@@ -54,8 +58,8 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 3, 7, 11, 17, 21, 24, 36, 39, 43, 49, 53, 57, 60, 65 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 3, 7, 11, 17, 21, 24, 33, 36, 39, 43, 49, 53, 57, 60, 65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ "กาน
 ", "เจน
@@ -70,6 +74,8 @@ tracks/1/keys = {
 
 ", "กาน
 
+
+", "นักเล่าเรื่อง
 
 ", "กาน
 
@@ -117,10 +123,10 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 3, 5, 6, 7, 9, 10, 11, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 41, 42, 43, 47, 48, 49, 51, 52, 53, 55, 56, 57, 58, 59, 60, 63, 64, 65, 66, 67 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 3, 5, 6, 7, 9, 10, 11, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 47, 48, 49, 51, 52, 53, 55, 56, 57, 58, 59, 60, 63, 64, 65, 66, 67 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0 ]
+"values": [ 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0 ]
 }
 tracks/4/type = "value"
 tracks/4/path = NodePath("Control/Box/Text:visible")
@@ -129,10 +135,10 @@ tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 3, 6, 7, 10, 11, 16, 17, 20, 21, 23, 24, 26, 36, 38, 39, 42, 43, 48, 49, 52, 53, 56, 57, 59, 60, 64, 65, 67 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 3, 6, 7, 10, 11, 16, 17, 20, 21, 23, 24, 26, 33, 35, 36, 38, 39, 42, 43, 48, 49, 52, 53, 56, 57, 59, 60, 64, 65, 67 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false ]
+"values": [ true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false ]
 }
 tracks/5/type = "value"
 tracks/5/path = NodePath("Control/Box_Char:visible")
@@ -141,7 +147,7 @@ tracks/5/loop_wrap = true
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/keys = {
-"times": PoolRealArray( 3, 27, 36 ),
+"times": PoolRealArray( 3, 27, 33 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
 "values": [ true, false, true ]
@@ -177,7 +183,7 @@ tracks/8/loop_wrap = true
 tracks/8/imported = false
 tracks/8/enabled = true
 tracks/8/keys = {
-"times": PoolRealArray( 0, 27, 36 ),
+"times": PoolRealArray( 0, 27, 33 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
 "values": [ true, false, true ]
@@ -189,10 +195,10 @@ tracks/9/loop_wrap = true
 tracks/9/imported = false
 tracks/9/enabled = true
 tracks/9/keys = {
-"times": PoolRealArray( 0, 24, 24.5, 25.5, 26, 36, 37, 39, 57, 58, 60 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 24, 24.5, 25.5, 26, 36, 37.9, 39, 57, 59, 60, 64.9, 67 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/10/type = "audio"
 tracks/10/path = NodePath("Sound/Text")
@@ -299,10 +305,10 @@ tracks/11/loop_wrap = true
 tracks/11/imported = false
 tracks/11/enabled = true
 tracks/11/keys = {
-"times": PoolRealArray( 11, 15, 16 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 11, 12.1, 15, 16 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 tracks/12/type = "value"
 tracks/12/path = NodePath("Sprites/BG_Village:modulate")
@@ -311,10 +317,58 @@ tracks/12/loop_wrap = true
 tracks/12/imported = false
 tracks/12/enabled = true
 tracks/12/keys = {
-"times": PoolRealArray( 16, 17, 26, 27 ),
+"times": PoolRealArray( 16, 17, 26, 27, 35.2, 36.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.952941, 0.952941, 0.952941, 0 ), Color( 0.952941, 0.952941, 0.952941, 0 ), Color( 0.545098, 0.545098, 0.545098, 1 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Sprites/BG_Forest:modulate")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 3, 9, 11 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.952941, 0.952941, 0.952941, 0 ) ]
+"values": [ Color( 0.952941, 0.952941, 0.952941, 0 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.545098, 0.545098, 0.545098, 1 ), Color( 0.952941, 0.952941, 0.952941, 0 ) ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Sprites/Catch:visible")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0, 30.5, 32 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("Sprites/Try Catch:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0, 27.5, 30 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("Sprites/Try Catch:position")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 27.5, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 800, 288 ), Vector2( 712, 288 ) ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -331,25 +385,53 @@ tracks/0/keys = {
 "update": 0,
 "values": [ false ]
 }
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprites/Catch:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
 
 [node name="Part_1_After_Escape" type="Node"]
 
 [node name="Sprites" type="Node2D" parent="."]
 
+[node name="Catch" type="Sprite" parent="Sprites"]
+position = Vector2( 546.5, 218.279 )
+scale = Vector2( 0.875834, 0.738798 )
+texture = ExtResource( 7 )
+
+[node name="Try Catch" type="Sprite" parent="Sprites"]
+visible = false
+position = Vector2( 712, 288 )
+scale = Vector2( 0.666667, 0.666667 )
+texture = ExtResource( 8 )
+
+[node name="BG_Escape" type="Sprite" parent="Sprites"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 512, 244 )
+scale = Vector2( 2.86835, 3.08861 )
+texture = ExtResource( 4 )
+
 [node name="BG_Village" type="Sprite" parent="Sprites"]
-modulate = Color( 0.952941, 0.952941, 0.952941, 0 )
+modulate = Color( 0.545098, 0.545098, 0.545098, 1 )
 position = Vector2( 512, 244.75 )
 scale = Vector2( 2.84444, 3.05975 )
 texture = ExtResource( 5 )
 
-[node name="BG_Escape" type="Sprite" parent="Sprites"]
-modulate = Color( 1, 1, 1, 0 )
-position = Vector2( 512, 246.5 )
-scale = Vector2( 2.86835, 3.12025 )
-texture = ExtResource( 4 )
+[node name="BG_Forest" type="Sprite" parent="Sprites"]
+modulate = Color( 0.952941, 0.952941, 0.952941, 0 )
+position = Vector2( 512, 244 )
+scale = Vector2( 0.267782, 0.443636 )
+texture = ExtResource( 6 )
 
 [node name="Karn" type="Sprite" parent="Sprites"]
-modulate = Color( 1, 1, 1, 0 )
 position = Vector2( 913, 383 )
 scale = Vector2( 0.0922692, 0.0922692 )
 texture = ExtResource( 2 )
@@ -359,7 +441,6 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Box" type="ColorRect" parent="Control"]
-visible = false
 margin_top = 488.0
 margin_right = 1024.0
 margin_bottom = 600.0
@@ -372,10 +453,8 @@ margin_top = 8.0
 margin_right = 1016.0
 margin_bottom = 104.0
 custom_fonts/font = SubResource( 3 )
-text = "เจน เร็ววว
-
+text = "ขอบคุณมากๆครับ/ค่ะ
 "
-percent_visible = 0.9
 
 [node name="Box_Char" type="ColorRect" parent="Control"]
 visible = false
@@ -391,7 +470,7 @@ margin_top = 8.0
 margin_right = 160.0
 margin_bottom = 32.0
 custom_fonts/font = SubResource( 2 )
-text = "กาน
+text = "กาน/เจน
 
 
 "
@@ -399,7 +478,7 @@ align = 1
 valign = 1
 
 [node name="Fade" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
+modulate = Color( 1, 1, 1, 0.333333 )
 margin_left = 1.0
 margin_top = 1.0
 margin_right = 1025.0

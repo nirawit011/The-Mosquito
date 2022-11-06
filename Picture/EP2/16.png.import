@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Map Forest.jpeg-516cacad3c806a533899d5a2d9cef835.stex"
+path="res://.import/16.png-893c4315bca3a59ebc2cd441f8ae29d3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/Map Forest.jpeg"
-dest_files=[ "res://.import/Map Forest.jpeg-516cacad3c806a533899d5a2d9cef835.stex" ]
+source_file="res://Picture/EP2/16.png"
+dest_files=[ "res://.import/16.png-893c4315bca3a59ebc2cd441f8ae29d3.stex" ]
 
 [params]
 

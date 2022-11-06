@@ -2,9 +2,9 @@
 
 [ext_resource path="res://Font/Itim Regular.otf" type="DynamicFontData" id=1]
 [ext_resource path="res://Character_Dialogue/Karn.png" type="Texture" id=2]
-[ext_resource path="res://Picture/—Pngtree—hand cartoon illustration for kids_8451343.png" type="Texture" id=3]
+[ext_resource path="res://Picture/Others/—Pngtree—hand cartoon illustration for kids_8451343.png" type="Texture" id=3]
 [ext_resource path="res://Sound/Digital Text.wav" type="AudioStream" id=4]
-[ext_resource path="res://Picture/GaG_1.png" type="Texture" id=5]
+[ext_resource path="res://Picture/EP1/GaG_1.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 20
@@ -146,10 +146,10 @@ tracks/8/loop_wrap = true
 tracks/8/imported = false
 tracks/8/enabled = true
 tracks/8/keys = {
-"times": PoolRealArray( 0, 5, 10 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 5, 10, 34.9, 39.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ false, true, false ]
+"values": [ false, true, false, true, false ]
 }
 tracks/9/type = "value"
 tracks/9/path = NodePath("Control/Text_Noti:percent_visible")
@@ -352,10 +352,10 @@ tracks/14/loop_wrap = true
 tracks/14/imported = false
 tracks/14/enabled = true
 tracks/14/keys = {
-"times": PoolRealArray( 67, 70 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 67, 70 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
 [node name="Part_1_Inside_Village" type="Node"]
@@ -399,23 +399,22 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Box" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
 margin_top = 488.0
 margin_right = 1024.0
 margin_bottom = 600.0
 color = Color( 0.117647, 0.117647, 0.117647, 1 )
 
 [node name="Text" type="Label" parent="Control/Box"]
+visible = false
 margin_left = 8.0
 margin_top = 8.0
 margin_right = 1016.0
 margin_bottom = 104.0
 custom_fonts/font = SubResource( 1 )
-text = "ขอบคุณมากนะครับที่ช่วยพวกเรา "
-percent_visible = 0.0
+text = "งั้นก็ตามนี้นะ เดี๋ยวข้าพาไป"
+percent_visible = 0.400002
 
 [node name="Box_Char" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
 margin_left = 832.0
 margin_top = 469.0
 margin_right = 984.0
@@ -423,19 +422,21 @@ margin_bottom = 509.0
 color = Color( 0.243137, 0.243137, 0.243137, 1 )
 
 [node name="Name" type="Label" parent="Control/Box_Char"]
-visible = false
 margin_left = 8.0
 margin_top = 6.0
 margin_right = 144.0
 margin_bottom = 57.0
 custom_fonts/font = SubResource( 2 )
-text = "กาน"
+text = "หัวหน้าหมู่บ้าน
+
+"
 align = 1
 
 [node name="Fade" type="ColorRect" parent="Control"]
-modulate = Color( 0, 0, 0, 1 )
+modulate = Color( 1, 1, 1, 0 )
+margin_top = -1.0
 margin_right = 1024.0
-margin_bottom = 600.0
+margin_bottom = 599.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Text_Noti" type="Label" parent="Control"]
@@ -447,7 +448,7 @@ custom_fonts/font = SubResource( 4 )
 text = "เกร็ดความรู้คู่เนื้อเรื่อง
 ภาคที่1"
 align = 1
-percent_visible = 0.0322576
+percent_visible = 0.903226
 
 [node name="Anim" type="AnimationPlayer" parent="."]
 anims/Part_1_Inside_Village = SubResource( 3 )

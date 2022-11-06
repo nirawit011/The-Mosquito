@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—vector leaf icon_3789487.png-7996c7d15df55b89b80430fe9ccc137e.stex"
+path="res://.import/—Pngtree—vector leaf icon_3789487.png-2379a227f2a273368ed0e9dae5bf656a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/—Pngtree—vector leaf icon_3789487.png"
-dest_files=[ "res://.import/—Pngtree—vector leaf icon_3789487.png-7996c7d15df55b89b80430fe9ccc137e.stex" ]
+source_file="res://Picture/Others/—Pngtree—vector leaf icon_3789487.png"
+dest_files=[ "res://.import/—Pngtree—vector leaf icon_3789487.png-2379a227f2a273368ed0e9dae5bf656a.stex" ]
 
 [params]
 
