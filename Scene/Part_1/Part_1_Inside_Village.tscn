@@ -399,6 +399,7 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Box" type="ColorRect" parent="Control"]
+modulate = Color( 0.458015, 0.458015, 0.458015, 1 )
 margin_top = 488.0
 margin_right = 1024.0
 margin_bottom = 600.0
@@ -411,10 +412,11 @@ margin_top = 8.0
 margin_right = 1016.0
 margin_bottom = 104.0
 custom_fonts/font = SubResource( 1 )
-text = "งั้นก็ตามนี้นะ เดี๋ยวข้าพาไป"
-percent_visible = 0.400002
+text = " ฝากพวกเอ็งด้วยนะ พวกเอ็งคือความหวัง"
+percent_visible = 0.584795
 
 [node name="Box_Char" type="ColorRect" parent="Control"]
+modulate = Color( 0.458015, 0.458015, 0.458015, 1 )
 margin_left = 832.0
 margin_top = 469.0
 margin_right = 984.0
@@ -422,6 +424,7 @@ margin_bottom = 509.0
 color = Color( 0.243137, 0.243137, 0.243137, 1 )
 
 [node name="Name" type="Label" parent="Control/Box_Char"]
+visible = false
 margin_left = 8.0
 margin_top = 6.0
 margin_right = 144.0
@@ -433,7 +436,7 @@ text = "หัวหน้าหมู่บ้าน
 align = 1
 
 [node name="Fade" type="ColorRect" parent="Control"]
-modulate = Color( 1, 1, 1, 0 )
+modulate = Color( 0, 0, 0, 1 )
 margin_top = -1.0
 margin_right = 1024.0
 margin_bottom = 599.0
@@ -446,9 +449,8 @@ margin_right = 852.0
 margin_bottom = 381.0
 custom_fonts/font = SubResource( 4 )
 text = "เกร็ดความรู้คู่เนื้อเรื่อง
-ภาคที่1"
+ตอนที่ 1"
 align = 1
-percent_visible = 0.903226
 
 [node name="Anim" type="AnimationPlayer" parent="."]
 anims/Part_1_Inside_Village = SubResource( 3 )
