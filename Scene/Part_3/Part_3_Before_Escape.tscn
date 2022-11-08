@@ -335,8 +335,7 @@ tracks/17/keys = {
 "times": PoolRealArray( 0, 3, 41, 43 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 1,
-"values": [ "ออย.....
-", "ออย.....", "คุณได้รับ
+"values": [ "ออย..", "ออย..", "คุณได้รับ
 แผนที่", "คุณได้รับ
 แผนที่" ]
 }
