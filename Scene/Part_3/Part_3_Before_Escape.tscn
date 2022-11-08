@@ -335,9 +335,7 @@ tracks/17/keys = {
 "times": PoolRealArray( 0, 3, 41, 43 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 1,
-"values": [ "Part1
-รวมตัว", "Part1
-รวมตัว", "คุณได้รับ
+"values": [ "ออย", "ออย", "คุณได้รับ
 แผนที่", "คุณได้รับ
 แผนที่" ]
 }
@@ -464,11 +462,9 @@ margin_top = 255.0
 margin_right = 612.0
 margin_bottom = 380.0
 custom_fonts/font = SubResource( 4 )
-text = "Part1
-รวมตัว"
+text = "ออย"
 align = 1
 valign = 1
-percent_visible = 0.633333
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 anims/Part_1_Before_Escape = SubResource( 2 )
