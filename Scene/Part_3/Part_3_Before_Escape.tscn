@@ -335,7 +335,8 @@ tracks/17/keys = {
 "times": PoolRealArray( 0, 3, 41, 43 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 1,
-"values": [ "ออย", "ออย", "คุณได้รับ
+"values": [ "ออย.....
+", "ออย.....", "คุณได้รับ
 แผนที่", "คุณได้รับ
 แผนที่" ]
 }
@@ -465,6 +466,7 @@ custom_fonts/font = SubResource( 4 )
 text = "ออย"
 align = 1
 valign = 1
+percent_visible = 0.0
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 anims/Part_1_Before_Escape = SubResource( 2 )
