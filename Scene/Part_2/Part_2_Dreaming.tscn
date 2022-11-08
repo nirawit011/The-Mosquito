@@ -849,13 +849,13 @@ margin_bottom = 601.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Text_Noti" type="Label" parent="Control"]
-margin_left = 320.0
-margin_top = 248.0
-margin_right = 706.0
-margin_bottom = 373.0
+margin_left = 301.0
+margin_top = 227.0
+margin_right = 721.0
+margin_bottom = 352.0
 custom_fonts/font = SubResource( 5 )
 text = "เกร็ดความรู้คู่เนื้อเรื่อง
-ตอนที่ 2"
+ตอนที่ 2 ฟกฟก"
 align = 1
 valign = 1
 
